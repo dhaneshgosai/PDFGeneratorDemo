@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="D9b-VN-NdE">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PDFGeneratorDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kkr-nn-spH">
+                                <rect key="frame" x="10" y="74" width="355" height="583"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pYA-2O-viy">
+                                        <rect key="frame" x="5" y="5" width="355" height="263"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My PDF Demo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bhG-JT-qfM">
+                                                <rect key="frame" x="10" y="10" width="335" height="21"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fsG-0M-0lx">
+                                                <rect key="frame" x="10" y="41" width="335" height="30"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lgy-Hr-uoR">
+                                                <rect key="frame" x="10" y="81" width="335" height="172"/>
+                                                <mutableString key="text"> A youth chooses manhood. The week Sam Witwicky starts college, the Decepticons make trouble in Shanghai. A presidential envoy believes it’s because the Autobots are around; he wants them gone. He’s wrong: the Decepticons need access to Sam’s mind to see some glyphs imprinted there that will lead them to a fragile object that, when inserted in an alien machine hidden in Egypt for centuries, will give them the power to blow out the sun. Sam, his girlfriend Mikaela Banes, and Sam’s parents are in danger. Optimus Prime and Bumblebee are Sam’s principal protectors. If one of them goes down, what becomes of Sam?</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="lgy-Hr-uoR" firstAttribute="top" secondItem="fsG-0M-0lx" secondAttribute="bottom" constant="10" id="9fh-Mv-plj"/>
+                                            <constraint firstItem="bhG-JT-qfM" firstAttribute="leading" secondItem="pYA-2O-viy" secondAttribute="leading" constant="10" id="GSe-55-mlL"/>
+                                            <constraint firstAttribute="trailing" secondItem="bhG-JT-qfM" secondAttribute="trailing" constant="10" id="Tdt-C9-3zD"/>
+                                            <constraint firstAttribute="trailing" secondItem="lgy-Hr-uoR" secondAttribute="trailing" constant="10" id="Zg1-OW-E4w"/>
+                                            <constraint firstItem="lgy-Hr-uoR" firstAttribute="leading" secondItem="pYA-2O-viy" secondAttribute="leading" constant="10" id="dBY-2J-yX6"/>
+                                            <constraint firstItem="fsG-0M-0lx" firstAttribute="leading" secondItem="pYA-2O-viy" secondAttribute="leading" constant="10" id="fPe-ID-5tg"/>
+                                            <constraint firstAttribute="bottom" secondItem="lgy-Hr-uoR" secondAttribute="bottom" constant="10" id="qjq-rn-fUd"/>
+                                            <constraint firstAttribute="trailing" secondItem="fsG-0M-0lx" secondAttribute="trailing" constant="10" id="rON-tP-jiY"/>
+                                            <constraint firstItem="fsG-0M-0lx" firstAttribute="top" secondItem="bhG-JT-qfM" secondAttribute="bottom" constant="10" id="vP1-YV-egq"/>
+                                            <constraint firstItem="bhG-JT-qfM" firstAttribute="top" secondItem="pYA-2O-viy" secondAttribute="top" constant="10" id="z9f-kp-Zil"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="pYA-2O-viy" firstAttribute="top" secondItem="kkr-nn-spH" secondAttribute="top" constant="5" id="CqF-FW-EfH"/>
+                                    <constraint firstItem="pYA-2O-viy" firstAttribute="width" secondItem="kkr-nn-spH" secondAttribute="width" id="a4C-qL-bpj"/>
+                                    <constraint firstItem="pYA-2O-viy" firstAttribute="leading" secondItem="kkr-nn-spH" secondAttribute="leading" constant="5" id="aQ9-qE-sex"/>
+                                    <constraint firstAttribute="bottom" secondItem="pYA-2O-viy" secondAttribute="bottom" constant="5" id="xV8-cN-S9R"/>
+                                    <constraint firstAttribute="trailing" secondItem="pYA-2O-viy" secondAttribute="trailing" constant="5" id="z6m-GS-Gc4"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="kkr-nn-spH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="UtM-yL-mC0"/>
+                            <constraint firstItem="kkr-nn-spH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="atf-ww-rOx"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kkr-nn-spH" secondAttribute="trailing" constant="10" id="kgY-Gf-4Tu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="kkr-nn-spH" secondAttribute="bottom" constant="10" id="kmN-DW-Fhz"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="xJB-gC-yj2">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="9Xv-hV-l4L">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="pms-cE-sZf">
+                                <rect key="frame" x="276" y="7" width="83" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="PDF"/>
+                                <connections>
+                                    <action selector="btnPdfGenerateClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DD3-FL-Nm5"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="containerView" destination="pYA-2O-viy" id="iio-DE-Mkf"/>
+                        <outlet property="scrPDFView" destination="kkr-nn-spH" id="CUb-Vz-rz9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="892" y="-564"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="0j0-DI-dR4">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="D9b-VN-NdE" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="BHq-bY-rnV">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="9Jg-CC-Zff"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lf6-Hh-mAG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="133.59999999999999" y="-564.46776611694156"/>
+        </scene>
+    </scenes>
+</document>

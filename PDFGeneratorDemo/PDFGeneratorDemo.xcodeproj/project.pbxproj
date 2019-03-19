@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C537D994E56F6CB29E619CC /* Pods_PDFGeneratorDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2E7FDE90CF916DDA4E88288 /* Pods_PDFGeneratorDemo.framework */; };
+		B889C855223E8F530018BBBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B889C854223E8F530018BBBB /* AppDelegate.swift */; };
+		B889C857223E8F530018BBBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B889C856223E8F530018BBBB /* ViewController.swift */; };
+		B889C85A223E8F530018BBBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B889C858223E8F530018BBBB /* Main.storyboard */; };
+		B889C85C223E8F560018BBBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B889C85B223E8F560018BBBB /* Assets.xcassets */; };
+		B889C85F223E8F560018BBBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B889C85D223E8F560018BBBB /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		279678FC62C3D0DD0B3FCD61 /* Pods-PDFGeneratorDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDFGeneratorDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PDFGeneratorDemo/Pods-PDFGeneratorDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		662E7A79D640D0E6EE7B1AE2 /* Pods-PDFGeneratorDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDFGeneratorDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-PDFGeneratorDemo/Pods-PDFGeneratorDemo.release.xcconfig"; sourceTree = "<group>"; };
+		B2E7FDE90CF916DDA4E88288 /* Pods_PDFGeneratorDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PDFGeneratorDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B889C851223E8F530018BBBB /* PDFGeneratorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDFGeneratorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B889C854223E8F530018BBBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B889C856223E8F530018BBBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B889C859223E8F530018BBBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B889C85B223E8F560018BBBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B889C85E223E8F560018BBBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B889C860223E8F570018BBBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B889C84E223E8F530018BBBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C537D994E56F6CB29E619CC /* Pods_PDFGeneratorDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		377446C1A010EC7F989D0372 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2E7FDE90CF916DDA4E88288 /* Pods_PDFGeneratorDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B889C848223E8F530018BBBB = {
+			isa = PBXGroup;
+			children = (
+				B889C853223E8F530018BBBB /* PDFGeneratorDemo */,
+				B889C852223E8F530018BBBB /* Products */,
+				C843903B6CAB17A13D49288F /* Pods */,
+				377446C1A010EC7F989D0372 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B889C852223E8F530018BBBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B889C851223E8F530018BBBB /* PDFGeneratorDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B889C853223E8F530018BBBB /* PDFGeneratorDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B889C854223E8F530018BBBB /* AppDelegate.swift */,
+				B889C856223E8F530018BBBB /* ViewController.swift */,
+				B889C858223E8F530018BBBB /* Main.storyboard */,
+				B889C85B223E8F560018BBBB /* Assets.xcassets */,
+				B889C85D223E8F560018BBBB /* LaunchScreen.storyboard */,
+				B889C860223E8F570018BBBB /* Info.plist */,
+			);
+			path = PDFGeneratorDemo;
+			sourceTree = "<group>";
+		};
+		C843903B6CAB17A13D49288F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				279678FC62C3D0DD0B3FCD61 /* Pods-PDFGeneratorDemo.debug.xcconfig */,
+				662E7A79D640D0E6EE7B1AE2 /* Pods-PDFGeneratorDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B889C850223E8F530018BBBB /* PDFGeneratorDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B889C863223E8F570018BBBB /* Build configuration list for PBXNativeTarget "PDFGeneratorDemo" */;
+			buildPhases = (
+				381E6672965A6D26B85178F5 /* [CP] Check Pods Manifest.lock */,
+				B889C84D223E8F530018BBBB /* Sources */,
+				B889C84E223E8F530018BBBB /* Frameworks */,
+				B889C84F223E8F530018BBBB /* Resources */,
+				EE0A2A47CF9AF7836445FF2B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PDFGeneratorDemo;
+			productName = PDFGeneratorDemo;
+			productReference = B889C851223E8F530018BBBB /* PDFGeneratorDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B889C849223E8F530018BBBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "My Future Partner";
+				TargetAttributes = {
+					B889C850223E8F530018BBBB = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = B889C84C223E8F530018BBBB /* Build configuration list for PBXProject "PDFGeneratorDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B889C848223E8F530018BBBB;
+			productRefGroup = B889C852223E8F530018BBBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B889C850223E8F530018BBBB /* PDFGeneratorDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B889C84F223E8F530018BBBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B889C85F223E8F560018BBBB /* LaunchScreen.storyboard in Resources */,
+				B889C85C223E8F560018BBBB /* Assets.xcassets in Resources */,
+				B889C85A223E8F530018BBBB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		381E6672965A6D26B85178F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PDFGeneratorDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE0A2A47CF9AF7836445FF2B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PDFGeneratorDemo/Pods-PDFGeneratorDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/PDFGenerator/PDFGenerator.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PDFGenerator.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PDFGeneratorDemo/Pods-PDFGeneratorDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B889C84D223E8F530018BBBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B889C857223E8F530018BBBB /* ViewController.swift in Sources */,
+				B889C855223E8F530018BBBB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B889C858223E8F530018BBBB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B889C859223E8F530018BBBB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B889C85D223E8F560018BBBB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B889C85E223E8F560018BBBB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B889C861223E8F570018BBBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B889C862223E8F570018BBBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B889C864223E8F570018BBBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 279678FC62C3D0DD0B3FCD61 /* Pods-PDFGeneratorDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XZDGN7QEVF;
+				INFOPLIST_FILE = PDFGeneratorDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bd.PDFGeneratorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B889C865223E8F570018BBBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 662E7A79D640D0E6EE7B1AE2 /* Pods-PDFGeneratorDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XZDGN7QEVF;
+				INFOPLIST_FILE = PDFGeneratorDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bd.PDFGeneratorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B889C84C223E8F530018BBBB /* Build configuration list for PBXProject "PDFGeneratorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B889C861223E8F570018BBBB /* Debug */,
+				B889C862223E8F570018BBBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B889C863223E8F570018BBBB /* Build configuration list for PBXNativeTarget "PDFGeneratorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B889C864223E8F570018BBBB /* Debug */,
+				B889C865223E8F570018BBBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B889C849223E8F530018BBBB /* Project object */;
+}

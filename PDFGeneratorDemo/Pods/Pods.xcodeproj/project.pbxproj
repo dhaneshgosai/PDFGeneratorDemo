@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02D7374AE09ADF0EDDAAC5873253400F /* PDFPagedScrollViewConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48763844C1916F9A3559E3EB7F89EFB9 /* PDFPagedScrollViewConfiguration.swift */; };
+		077682E07C7D3250862FEB98D18C4300 /* PDFPageRenderable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EE7A7BBDE0232870EBCA5BD98BC778 /* PDFPageRenderable.swift */; };
+		27B07E973C71B29607616A532C8D8901 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDDB8272AF7DA52CED82F42852514AD3 /* WebKit.framework */; };
+		41C58DAA7AAEB43D97BFDC6DBEB5CF7A /* PDFGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = CDB4020BFE6A5579F462B946EC4A1AAE /* PDFGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E8FE8B0154D2C9FCFBE36519B1085A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 596A5E7C40FB07FDAA78D426185FA95B /* Foundation.framework */; };
+		53F50136FCA2CFAF6D1B4D6338091512 /* Pods-PDFGeneratorDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B20ED3931ECF0BE54A833E7708665F07 /* Pods-PDFGeneratorDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D9A10D22DB061C3575167BFBB83C437 /* PDFGenerator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DDB732D10DFAB8BEE0D6F47E34B62ED1 /* PDFGenerator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65BFF4FA100C68AF870086DFB170478D /* FilePathConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F5BE756265D47AE0FF3F13007BCE80 /* FilePathConvertible.swift */; };
+		7CC4E58DF95440E065D5351576514912 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 596A5E7C40FB07FDAA78D426185FA95B /* Foundation.framework */; };
+		7E2F25F1EFF93B84002D5164EE04B4BB /* DPIType.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBBC99A3F52A2262393196046948321 /* DPIType.swift */; };
+		9DB2B7D968D87704F895D6B4BB25DA63 /* PDFPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6561DF5E77179FD822D4C20F32DEF37C /* PDFPage.swift */; };
+		A6D6CB83E69BA498B36A9F90CA0DCD02 /* PDFGenerateError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85038E0FFA355D17EEAD8E11BC1EACFA /* PDFGenerateError.swift */; };
+		DE2CA6A91202C65711C9B172225C3311 /* PDFPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBA1966103ED4F595397401B0EFB23A /* PDFPassword.swift */; };
+		E0A4343108781F8DF12D1D082109EE58 /* PDFGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BC669ECD41804C77AD2EB18C9B0174 /* PDFGenerator.swift */; };
+		F3BB7D8AB15EC987CA88E4B668464AE0 /* Pods-PDFGeneratorDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A285C6704F535E24480AE6B07B3340 /* Pods-PDFGeneratorDemo-dummy.m */; };
+		F85A0FF599D458C6FC03D3D97C57542B /* PDFGenerator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C725899162DA27681991F8C51905113 /* PDFGenerator-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBCCF82D0F3C9F5EACF59CA16393ECB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C987ABC0516F08EB4031980AAE831F95;
+			remoteInfo = PDFGenerator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10F5BE756265D47AE0FF3F13007BCE80 /* FilePathConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FilePathConvertible.swift; path = PDFGenerator/FilePathConvertible.swift; sourceTree = "<group>"; };
+		2CBA1966103ED4F595397401B0EFB23A /* PDFPassword.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PDFPassword.swift; path = PDFGenerator/PDFPassword.swift; sourceTree = "<group>"; };
+		39DC9798E0379925B4C256F274B69590 /* Pods-PDFGeneratorDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PDFGeneratorDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		3CB36AC4486D1637C036F00C73695C55 /* Pods-PDFGeneratorDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PDFGeneratorDemo-resources.sh"; sourceTree = "<group>"; };
+		40A285C6704F535E24480AE6B07B3340 /* Pods-PDFGeneratorDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PDFGeneratorDemo-dummy.m"; sourceTree = "<group>"; };
+		48763844C1916F9A3559E3EB7F89EFB9 /* PDFPagedScrollViewConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PDFPagedScrollViewConfiguration.swift; path = PDFGenerator/PDFPagedScrollViewConfiguration.swift; sourceTree = "<group>"; };
+		50EE7A7BBDE0232870EBCA5BD98BC778 /* PDFPageRenderable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PDFPageRenderable.swift; path = PDFGenerator/PDFPageRenderable.swift; sourceTree = "<group>"; };
+		53BC669ECD41804C77AD2EB18C9B0174 /* PDFGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PDFGenerator.swift; path = PDFGenerator/PDFGenerator.swift; sourceTree = "<group>"; };
+		596A5E7C40FB07FDAA78D426185FA95B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5C725899162DA27681991F8C51905113 /* PDFGenerator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PDFGenerator-dummy.m"; sourceTree = "<group>"; };
+		5CFD16E1186D322548B15C1F08460CF6 /* PDFGenerator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PDFGenerator-prefix.pch"; sourceTree = "<group>"; };
+		61E53738A729B92531887C1DF2B82319 /* PDFGenerator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PDFGenerator.xcconfig; sourceTree = "<group>"; };
+		6561DF5E77179FD822D4C20F32DEF37C /* PDFPage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PDFPage.swift; path = PDFGenerator/PDFPage.swift; sourceTree = "<group>"; };
+		6CA8A9C2A55E0D9C5F799AFD712A2CDD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73D80ADB251FC5A30D532093DCEB8DD7 /* Pods-PDFGeneratorDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PDFGeneratorDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		7887D9F451B9B5389B16D0EE3F37BAD3 /* PDFGenerator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PDFGenerator.modulemap; sourceTree = "<group>"; };
+		83BBB996ECBA0DD10E6EA56EB48ABBED /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85038E0FFA355D17EEAD8E11BC1EACFA /* PDFGenerateError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PDFGenerateError.swift; path = PDFGenerator/PDFGenerateError.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ADBBC99A3F52A2262393196046948321 /* DPIType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPIType.swift; path = PDFGenerator/DPIType.swift; sourceTree = "<group>"; };
+		AF0911DC4A0E32A086ECE25BA93693A8 /* Pods-PDFGeneratorDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PDFGeneratorDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B20ED3931ECF0BE54A833E7708665F07 /* Pods-PDFGeneratorDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PDFGeneratorDemo-umbrella.h"; sourceTree = "<group>"; };
+		B710F87A2ABE5EC61066F9ACCF7B903B /* Pods-PDFGeneratorDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PDFGeneratorDemo.release.xcconfig"; sourceTree = "<group>"; };
+		BC845E2745FD28A8180D50EAD69B0E78 /* Pods_PDFGeneratorDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PDFGeneratorDemo.framework; path = "Pods-PDFGeneratorDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C291E5CF50BEDEA714C9A15C35DFB494 /* PDFGenerator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PDFGenerator.framework; path = PDFGenerator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDB4020BFE6A5579F462B946EC4A1AAE /* PDFGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDFGenerator.h; path = PDFGenerator/PDFGenerator.h; sourceTree = "<group>"; };
+		D0A7F40839271FA4111AD3E337331923 /* Pods-PDFGeneratorDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PDFGeneratorDemo.modulemap"; sourceTree = "<group>"; };
+		D97F1CCABFDCB5A52A50FE96E42FCCD9 /* Pods-PDFGeneratorDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PDFGeneratorDemo-frameworks.sh"; sourceTree = "<group>"; };
+		DDB732D10DFAB8BEE0D6F47E34B62ED1 /* PDFGenerator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PDFGenerator-umbrella.h"; sourceTree = "<group>"; };
+		EDDB8272AF7DA52CED82F42852514AD3 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F1BAD76B63B74508F33CBB326445C94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E8FE8B0154D2C9FCFBE36519B1085A8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C51ED7D82A7B0E9ED685380E70C92531 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CC4E58DF95440E065D5351576514912 /* Foundation.framework in Frameworks */,
+				27B07E973C71B29607616A532C8D8901 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		345108D9F31C8A03D2FE577A9367ABBC /* Pods-PDFGeneratorDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6CA8A9C2A55E0D9C5F799AFD712A2CDD /* Info.plist */,
+				D0A7F40839271FA4111AD3E337331923 /* Pods-PDFGeneratorDemo.modulemap */,
+				AF0911DC4A0E32A086ECE25BA93693A8 /* Pods-PDFGeneratorDemo-acknowledgements.markdown */,
+				73D80ADB251FC5A30D532093DCEB8DD7 /* Pods-PDFGeneratorDemo-acknowledgements.plist */,
+				40A285C6704F535E24480AE6B07B3340 /* Pods-PDFGeneratorDemo-dummy.m */,
+				D97F1CCABFDCB5A52A50FE96E42FCCD9 /* Pods-PDFGeneratorDemo-frameworks.sh */,
+				3CB36AC4486D1637C036F00C73695C55 /* Pods-PDFGeneratorDemo-resources.sh */,
+				B20ED3931ECF0BE54A833E7708665F07 /* Pods-PDFGeneratorDemo-umbrella.h */,
+				39DC9798E0379925B4C256F274B69590 /* Pods-PDFGeneratorDemo.debug.xcconfig */,
+				B710F87A2ABE5EC61066F9ACCF7B903B /* Pods-PDFGeneratorDemo.release.xcconfig */,
+			);
+			name = "Pods-PDFGeneratorDemo";
+			path = "Target Support Files/Pods-PDFGeneratorDemo";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				729C424472F1E074A2EF30A6BC5F7C43 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		566ABCCB3670457CCB114A60E05F818B /* PDFGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				ADBBC99A3F52A2262393196046948321 /* DPIType.swift */,
+				10F5BE756265D47AE0FF3F13007BCE80 /* FilePathConvertible.swift */,
+				85038E0FFA355D17EEAD8E11BC1EACFA /* PDFGenerateError.swift */,
+				CDB4020BFE6A5579F462B946EC4A1AAE /* PDFGenerator.h */,
+				53BC669ECD41804C77AD2EB18C9B0174 /* PDFGenerator.swift */,
+				6561DF5E77179FD822D4C20F32DEF37C /* PDFPage.swift */,
+				48763844C1916F9A3559E3EB7F89EFB9 /* PDFPagedScrollViewConfiguration.swift */,
+				50EE7A7BBDE0232870EBCA5BD98BC778 /* PDFPageRenderable.swift */,
+				2CBA1966103ED4F595397401B0EFB23A /* PDFPassword.swift */,
+				7CF9BDC29F0AE34C79A71C45AD262389 /* Support Files */,
+			);
+			name = PDFGenerator;
+			path = PDFGenerator;
+			sourceTree = "<group>";
+		};
+		729C424472F1E074A2EF30A6BC5F7C43 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				596A5E7C40FB07FDAA78D426185FA95B /* Foundation.framework */,
+				EDDB8272AF7DA52CED82F42852514AD3 /* WebKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7CF9BDC29F0AE34C79A71C45AD262389 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				83BBB996ECBA0DD10E6EA56EB48ABBED /* Info.plist */,
+				7887D9F451B9B5389B16D0EE3F37BAD3 /* PDFGenerator.modulemap */,
+				61E53738A729B92531887C1DF2B82319 /* PDFGenerator.xcconfig */,
+				5C725899162DA27681991F8C51905113 /* PDFGenerator-dummy.m */,
+				5CFD16E1186D322548B15C1F08460CF6 /* PDFGenerator-prefix.pch */,
+				DDB732D10DFAB8BEE0D6F47E34B62ED1 /* PDFGenerator-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PDFGenerator";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				FEC9A0451B5B37096C8876913C6680E8 /* Pods */,
+				FC2C1A7BBE8A881BC5719650A8BD137F /* Products */,
+				A8B4848F2082C18145A56405BC7631D7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A8B4848F2082C18145A56405BC7631D7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				345108D9F31C8A03D2FE577A9367ABBC /* Pods-PDFGeneratorDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FC2C1A7BBE8A881BC5719650A8BD137F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C291E5CF50BEDEA714C9A15C35DFB494 /* PDFGenerator.framework */,
+				BC845E2745FD28A8180D50EAD69B0E78 /* Pods_PDFGeneratorDemo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEC9A0451B5B37096C8876913C6680E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				566ABCCB3670457CCB114A60E05F818B /* PDFGenerator */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A21E9EB5331CAB4B209B5E6936312853 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D9A10D22DB061C3575167BFBB83C437 /* PDFGenerator-umbrella.h in Headers */,
+				41C58DAA7AAEB43D97BFDC6DBEB5CF7A /* PDFGenerator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4F35EF5F72B99FE97C39845D4E69C22 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53F50136FCA2CFAF6D1B4D6338091512 /* Pods-PDFGeneratorDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		242185C10CBFA1FB1C3F1298FB0E1C77 /* Pods-PDFGeneratorDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F00CDFE7CB7A7004470B02010744D8E /* Build configuration list for PBXNativeTarget "Pods-PDFGeneratorDemo" */;
+			buildPhases = (
+				1269E5119F59D901BB9B12C05474A4AF /* Sources */,
+				0F1BAD76B63B74508F33CBB326445C94 /* Frameworks */,
+				D4F35EF5F72B99FE97C39845D4E69C22 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC7658C598293B30DC671AF12E45CFE4 /* PBXTargetDependency */,
+			);
+			name = "Pods-PDFGeneratorDemo";
+			productName = "Pods-PDFGeneratorDemo";
+			productReference = BC845E2745FD28A8180D50EAD69B0E78 /* Pods_PDFGeneratorDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C987ABC0516F08EB4031980AAE831F95 /* PDFGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF4E26BCC464BE0DA8C5FB929A81061F /* Build configuration list for PBXNativeTarget "PDFGenerator" */;
+			buildPhases = (
+				2E01AA2641CD9A1994D6B05D3E8816F3 /* Sources */,
+				C51ED7D82A7B0E9ED685380E70C92531 /* Frameworks */,
+				A21E9EB5331CAB4B209B5E6936312853 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PDFGenerator;
+			productName = PDFGenerator;
+			productReference = C291E5CF50BEDEA714C9A15C35DFB494 /* PDFGenerator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FC2C1A7BBE8A881BC5719650A8BD137F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C987ABC0516F08EB4031980AAE831F95 /* PDFGenerator */,
+				242185C10CBFA1FB1C3F1298FB0E1C77 /* Pods-PDFGeneratorDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1269E5119F59D901BB9B12C05474A4AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3BB7D8AB15EC987CA88E4B668464AE0 /* Pods-PDFGeneratorDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E01AA2641CD9A1994D6B05D3E8816F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E2F25F1EFF93B84002D5164EE04B4BB /* DPIType.swift in Sources */,
+				65BFF4FA100C68AF870086DFB170478D /* FilePathConvertible.swift in Sources */,
+				A6D6CB83E69BA498B36A9F90CA0DCD02 /* PDFGenerateError.swift in Sources */,
+				F85A0FF599D458C6FC03D3D97C57542B /* PDFGenerator-dummy.m in Sources */,
+				E0A4343108781F8DF12D1D082109EE58 /* PDFGenerator.swift in Sources */,
+				9DB2B7D968D87704F895D6B4BB25DA63 /* PDFPage.swift in Sources */,
+				02D7374AE09ADF0EDDAAC5873253400F /* PDFPagedScrollViewConfiguration.swift in Sources */,
+				077682E07C7D3250862FEB98D18C4300 /* PDFPageRenderable.swift in Sources */,
+				DE2CA6A91202C65711C9B172225C3311 /* PDFPassword.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC7658C598293B30DC671AF12E45CFE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PDFGenerator;
+			target = C987ABC0516F08EB4031980AAE831F95 /* PDFGenerator */;
+			targetProxy = DBCCF82D0F3C9F5EACF59CA16393ECB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		063198AB09B9CDB3A695432FC17AD8CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		27E160A211C8A1B792736E7D696497BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B710F87A2ABE5EC61066F9ACCF7B903B /* Pods-PDFGeneratorDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PDFGeneratorDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PDFGeneratorDemo/Pods-PDFGeneratorDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		87EAC867385563488A6D8F1E74AC46B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9E23693888A6F836483438B666972FC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61E53738A729B92531887C1DF2B82319 /* PDFGenerator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PDFGenerator/PDFGenerator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PDFGenerator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PDFGenerator/PDFGenerator.modulemap";
+				PRODUCT_MODULE_NAME = PDFGenerator;
+				PRODUCT_NAME = PDFGenerator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F3F02940CB665803B4F3CA0C8AD377B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61E53738A729B92531887C1DF2B82319 /* PDFGenerator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PDFGenerator/PDFGenerator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PDFGenerator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PDFGenerator/PDFGenerator.modulemap";
+				PRODUCT_MODULE_NAME = PDFGenerator;
+				PRODUCT_NAME = PDFGenerator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FAE9221A21E67F9B8348DFAE3E84EBE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39DC9798E0379925B4C256F274B69590 /* Pods-PDFGeneratorDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PDFGeneratorDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PDFGeneratorDemo/Pods-PDFGeneratorDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87EAC867385563488A6D8F1E74AC46B4 /* Debug */,
+				063198AB09B9CDB3A695432FC17AD8CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F00CDFE7CB7A7004470B02010744D8E /* Build configuration list for PBXNativeTarget "Pods-PDFGeneratorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE9221A21E67F9B8348DFAE3E84EBE1 /* Debug */,
+				27E160A211C8A1B792736E7D696497BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF4E26BCC464BE0DA8C5FB929A81061F /* Build configuration list for PBXNativeTarget "PDFGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3F02940CB665803B4F3CA0C8AD377B8 /* Debug */,
+				9E23693888A6F836483438B666972FC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
