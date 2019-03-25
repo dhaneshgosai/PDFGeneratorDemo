@@ -37,16 +37,26 @@ class ViewController: UIViewController {
     }
     func generatePDF(){
         
-        createPdfFromView(aView: containerView, saveToDocumentsWithFileName: "TestPDF.pdf")
+        self.view.endEditing(true)
         
-//        let dst = URL(fileURLWithPath: NSTemporaryDirectory().appending("sample1.pdf"))
-//        // outputs as Data
-//        do {
-//            let data = try PDFGenerator.generated(by: [containerView])
-//            try data.write(to: dst, options: .atomic)
-//        } catch (let error) {
-//            print(error)
-//        }
+        do {
+            let view = try containerView.copyObject()!
+            let dst = URL(fileURLWithPath: NSTemporaryDirectory().appending("sample12.pdf"))
+            // outputs as Data
+            do {
+                let data = try PDFGenerator.generated(by: [view])
+                try data.write(to: dst, options: .atomic)
+            } catch (let error) {
+                print(error)
+            }
+        } catch {
+            print("Error")
+        }
+    
+        
+//        createPdfFromView(aView: containerView, saveToDocumentsWithFileName: "TestPDF.pdf")
+        
+        
         
     }
     
@@ -100,3 +110,24 @@ extension ViewController : MKMapViewDelegate {
     }
 }
 
+//extension UIView
+//{
+//    func copyView<T: UIView>() -> T {
+//
+//        do {
+//            return try NSKeyedUnarchiver.unarchivedObject(ofClass: UIView.self, from: NSKeyedArchiver.archivedData(withRootObject: self, requiringSecureCoding: false)) as! T
+//        } catch {
+//            print("error")
+//        }
+//
+//        return self as! T
+//
+//    }
+//}
+
+extension UIView {
+    func copyObject<T:UIView>() throws -> T? {
+        let data = try NSKeyedArchiver.archivedData(withRootObject:self, requiringSecureCoding:false)
+        return try NSKeyedUnarchiver.unarchiveTopLevelObjectWithData(data) as? T
+    }
+}
